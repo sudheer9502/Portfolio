@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudheer Kumar Pathakamuri | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Sudheer Kumar Pathakamuri - Software Engineer specializing in Python, Django, and Machine Learning.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-glow"></div>
+
+    <header>
+        <nav>
+            <div class="logo-wrapper" style="display: flex; flex-direction: column; line-height: 1.2;">
+                <div class="logo">Sudheer Kumar</div>
+                <div class="nav-location"
+                    style="font-size: 0.85rem; font-weight: 400; color: var(--text-secondary); display: flex; align-items: center; gap: 0.4rem; margin-top: 2px;">
+                    <i class="fas fa-home" style="color: var(--accent-primary); font-size: 0.8rem;"></i> Bengaluru,
+                    India
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="btn-contact">Contact Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1 style="color: var(--text-primary);">Sudheer Kumar Pathakamuri</h1>
+                <h2 class="dynamic-text">Software Engineer & <span id="typing-text"></span></h2>
+                <p class="bio-short">Detail-oriented Software Engineer with a strong foundation in Python programming,
+                    automation, and full-stack development. Building scalable solutions with clean code.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="mailto:pathakamuri1111@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+917671854795" title="Call"><i class="fas fa-phone"></i></a>
+                    <a href="https://www.linkedin.com/in/sudheer-kumar-925678260" target="_blank" title="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/sudheerpathakamuri" target="_blank" title="GitHub"><i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-block">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre><code><span class="keyword">class</span> <span class="class-name">Developer</span>:
+    <span class="keyword">def</span> <span class="function">__init__</span>(<span class="self">self</span>):
+        <span class="self">self</span>.name = <span class="string">"Sudheer Kumar"</span>
+        <span class="self">self</span>.skills = [
+            <span class="string">"Python"</span>, <span class="string">"Django"</span>,
+            <span class="string">"SQL"</span>, <span class="string">"ML"</span>
+        ]
+
+    <span class="keyword">def</span> <span class="function">build_solutions</span>(<span class="self">self</span>):
+        <span class="keyword">return</span> <span class="string">"Scalable & Efficient"</span>
+</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section-padding">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>I am a <span class="highlight">detail-oriented Software Engineer</span> with a strong foundation
+                        in Python programming and scripting. Experienced in developing automated systems, managing SQL
+                        databases, and implementing RESTful logic.</p>
+                    <p>I have a proven ability to troubleshoot complex issues through log analysis and data
+                        preprocessing. I am committed to following standard coding practices and security protocols to
+                        build scalable solutions.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3>B.Tech</h3>
+                            <p>CSE Graduate</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>8.12</h3>
+                            <p>CGPA</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>2+</h3>
+                            <p>Major Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section-padding">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming & Scripting</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>SQL</span>
+                        <span>OOP</span>
+                        <span>Exception Handling</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Automation & Web</h3>
+                    <div class="skill-tags">
+                        <span>Django</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Git</span>
+                        <span>REST API</span>
+                        <span>Ansible</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data & ML</h3>
+                    <div class="skill-tags">
+                        <span>MySQL</span>
+                        <span>SQLite</span>
+                        <span>Pandas</span>
+                        <span>Scikit-Learn</span>
+                        <span>Predictive Analytics</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Networking & Tools</h3>
+                    <div class="skill-tags">
+                        <span>Cisco CCNAv7</span>
+                        <span>JSON Handling</span>
+                        <span>VS Code</span>
+                        <span>Network Logic</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section-padding">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-type">Python & Django</span>
+                            <span class="project-date">Apr 2025 - Jul 2025</span>
+                        </div>
+                        <h3>Stock Management Automation System</h3>
+                        <p>An automated system for real-time tracking of inventory levels, sales, and restocking
+                            schedules. Optimized SQL queries reduced retrieval time by 40%.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> 40% faster operational decisions</li>
+                            <li><i class="fas fa-check"></i> Role-based access control</li>
+                            <li><i class="fas fa-check"></i> Automated file handling</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>Django</span>
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>Security</span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/warehouse_stock_lifting.png" alt="Warehouse Stock Lifting">
+                            <img src="images/warehouse_data_entry.png" alt="Warehouse Data Entry">
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <span class="project-type">Machine Learning</span>
+                            <span class="project-date">Jul 2025 - Sep 2025</span>
+                        </div>
+                        <h3>Agriculture Predictive Analytics Dashboard</h3>
+                        <p>Engineered a predictive dashboard for real-time insights on weather and soil conditions. Used
+                            Random Forest models with 85% accuracy.</p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> 85% Model Accuracy</li>
+                            <li><i class="fas fa-check"></i> Real-time Soil Analysis</li>
+                            <li><i class="fas fa-check"></i> Automated Classification</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Sklearn</span>
+                            <span>Pandas</span>
+                            <span>Data Viz</span>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="images/soil_quality_testing.png" alt="Soil Quality Testing">
+                            <img src="images/crop_cultivation_field.png" alt="Crop Cultivation">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="education" class="education section-padding">
+            <h2 class="section-title">Certifications & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item certificate-item">
+                    <div class="timeline-dot cert-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Certifications</h3>
+                        <ul class="cert-list">
+                            <li>Python Full Stack Certification</li>
+                            <li>Cisco CCNAv7 : Introduction to Networks</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jun 2020 - Apr 2024</div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Technology (CSE)</h3>
+                        <h4>Dr MGR Educational and Research Institute</h4>
+                        <p>CGPA: 8.12</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jun 2018 - May 2020</div>
+                    <div class="timeline-content">
+                        <h3>Intermediate</h3>
+                        <h4>Sri Chaitanya Junior College</h4>
+                        <p>Grade: 9.44</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <div class="footer-content">
+                <h2>Let's Work Together</h2>
+                <p>Feel free to reach out for collaborations or opportunities.</p>
+                <div class="contact-methods">
+                    <a href="mailto:pathakamuri1111@gmail.com" class="contact-box">
+                        <i class="fas fa-envelope"></i>
+                        <span>pathakamuri1111@gmail.com</span>
+                    </a>
+                    <a href="tel:+917671854795" class="contact-box">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 7671854795</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sudheer-kumar-925678260" target="_blank" class="contact-box">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn Profile</span>
+                    </a>
+                    <a href="https://github.com/sudheerpathakamuri" target="_blank" class="contact-box">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub Profile</span>
+                    </a>
+                </div>
+                <div class="location">
+                    <i class="fas fa-map-marker-alt"></i> Bengaluru, India
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 Sudheer Kumar Pathakamuri. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
